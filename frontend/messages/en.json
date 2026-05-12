@@ -1,0 +1,134 @@
+{
+  "Common": {
+    "connect": "Connect Wallet",
+    "disconnect": "Disconnect",
+    "loading": "Loading...",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "submit": "Submit",
+    "viewOnExplorer": "View on explorer",
+    "viewReceipt": "View receipt"
+  },
+  "Theme": {
+    "label": "Toggle theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "Locale": {
+    "label": "Switch language"
+  },
+  "Header": {
+    "title": "Eco Receipt",
+    "nav": {
+      "analyze": "Analyze",
+      "myReceipts": "My Receipts"
+    }
+  },
+  "Landing": {
+    "heroTitle": "Sustainability proof, on-chain",
+    "heroSubtitle": "Generate AI-backed environmental reports for any product, then mint the report hash as an NFT credential on Monad.",
+    "cta": "Analyze a product",
+    "features": {
+      "ai": {
+        "title": "AI-powered analysis",
+        "desc": "Aggregates public sustainability data into a score, grade, and evidence list."
+      },
+      "onchain": {
+        "title": "Immutable on-chain",
+        "desc": "Report hash and evidence Merkle root are minted by an auditor wallet."
+      },
+      "wallet": {
+        "title": "Wallet as identity",
+        "desc": "The connected wallet owns the receipt — no accounts to register."
+      }
+    }
+  },
+  "Analyze": {
+    "title": "Generate a green report",
+    "subtitle": "Tell us about the product. Our AI will pull evidence from public sources and score it.",
+    "form": {
+      "productName": "Product name",
+      "productNamePlaceholder": "e.g. Nike Pegasus Trail 5 DV3865-602",
+      "brand": "Brand",
+      "brandPlaceholder": "e.g. Nike",
+      "productUrl": "Product URL",
+      "productUrlPlaceholder": "Optional, e.g. https://www.nike.com/...",
+      "submit": "Generate report",
+      "submitting": "Analyzing, please wait..."
+    },
+    "errors": {
+      "productNameRequired": "Product name is required"
+    },
+    "reset": "Analyze again"
+  },
+  "Report": {
+    "score": "Environmental score",
+    "grade": "Grade",
+    "summary": "Summary",
+    "findings": "Findings",
+    "evidences": "Evidence",
+    "noEvidences": "No evidence yet",
+    "positiveSignals": "Positive signals",
+    "riskSignals": "Risk signals",
+    "greenwashingRisk": "Greenwashing risk",
+    "alternatives": "Alternatives",
+    "onChainProof": "On-chain proof",
+    "reportHash": "Report hash",
+    "evidenceMerkleRoot": "Evidence Merkle root",
+    "reportURI": "Report URI",
+    "metadataURI": "Metadata URI",
+    "evidenceTitle": "Title",
+    "evidenceSource": "Source",
+    "evidenceUrl": "Link",
+    "evidenceExcerpt": "Excerpt",
+    "evidenceClaim": "Claim",
+    "evidenceConfidence": "Confidence",
+    "evidenceHash": "Hash",
+    "confidence": {
+      "High": "High",
+      "Medium": "Medium",
+      "Low": "Low",
+      "Unverified": "Unverified"
+    }
+  },
+  "Mint": {
+    "cta": "Mint as NFT",
+    "ctaConnectFirst": "Connect wallet to mint",
+    "dialogTitle": "Confirm mint",
+    "dialogDesc": "An auditor wallet will mint this receipt for you. The NFT will be owned by the wallet you currently have connected.",
+    "to": "Recipient address",
+    "submitting": "Minting, waiting for on-chain confirmation...",
+    "success": "Mint successful",
+    "successDesc": "Your green receipt has been recorded on Monad Testnet.",
+    "tokenId": "Token ID",
+    "transactionHash": "Transaction hash",
+    "contract": "Contract address",
+    "retry": "Retry mint",
+    "error": "Mint failed"
+  },
+  "Receipt": {
+    "title": "Receipt #{tokenId}",
+    "loading": "Loading receipt...",
+    "notFound": "Receipt not found",
+    "notFoundDesc": "This token ID does not exist on chain — maybe not minted yet, or wrong network.",
+    "creator": "Creator",
+    "auditor": "Auditor",
+    "mintedAt": "Minted at",
+    "fullReport": "Full report",
+    "fetchReportFailed": "Failed to fetch full report"
+  },
+  "MyReceipts": {
+    "title": "My Receipts",
+    "subtitle": "All Eco Receipts owned by this wallet.",
+    "empty": "No receipts yet. Try analyzing a product first?",
+    "connectFirst": "Connect your wallet to see your receipts.",
+    "scanning": "Scanning events..."
+  },
+  "Errors": {
+    "walletNotConnected": "Please connect your wallet first",
+    "apiError": "Request failed: {message}",
+    "unknown": "Something went wrong, please try again later"
+  }
+}

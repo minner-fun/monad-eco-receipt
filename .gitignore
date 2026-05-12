@@ -1,6 +1,42 @@
 # Compiler files
 cache/
 out/
+dist/
+build/
+
+# Node dependencies and package manager cache
+node_modules/
+**/node_modules/
+.pnpm-store/
+
+# Next.js output
+.next/
+**/.next/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Frontend local files
+frontend/node_modules/
+frontend/node_modules/**
+frontend/.pnpm-store/
+frontend/.pnpm-store/**
+frontend/.next/
+frontend/.next/**
+frontend/out/
+frontend/out/**
+frontend/dist/
+frontend/dist/**
+frontend/build/
+frontend/build/**
+frontend/.turbo/
+frontend/.turbo/**
+frontend/.vercel/
+frontend/.vercel/**
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+frontend/*.tsbuildinfo
 
 # Ignores development broadcast logs
 !/broadcast
@@ -10,5 +46,12 @@ out/
 # Docs
 docs/
 
-# Dotenv file
+# Dotenv files
 .env
+.env.local
+.env.*.local
+**/.env
+**/.env.local
+**/.env.*.local
+!.env.example
+!**/.env.example

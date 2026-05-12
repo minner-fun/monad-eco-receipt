@@ -1,0 +1,134 @@
+{
+  "Common": {
+    "connect": "连接钱包",
+    "disconnect": "断开连接",
+    "loading": "加载中...",
+    "retry": "重试",
+    "cancel": "取消",
+    "confirm": "确认",
+    "submit": "提交",
+    "viewOnExplorer": "在浏览器查看",
+    "viewReceipt": "查看收据"
+  },
+  "Theme": {
+    "label": "切换主题",
+    "light": "浅色",
+    "dark": "深色",
+    "system": "跟随系统"
+  },
+  "Locale": {
+    "label": "切换语言"
+  },
+  "Header": {
+    "title": "Eco Receipt",
+    "nav": {
+      "analyze": "分析",
+      "myReceipts": "我的收据"
+    }
+  },
+  "Landing": {
+    "heroTitle": "环保鉴定,链上凭证",
+    "heroSubtitle": "用 AI 给每个商品生成绿色报告,把核心哈希铸成 NFT,做你对环保选择的公开证明。",
+    "cta": "立即分析商品",
+    "features": {
+      "ai": {
+        "title": "AI 自动分析",
+        "desc": "聚合品牌可持续性数据,生成评分、等级和证据列表。"
+      },
+      "onchain": {
+        "title": "链上不可篡改",
+        "desc": "报告哈希 + 证据 Merkle Root 上链,审核员钱包代为铸造。"
+      },
+      "wallet": {
+        "title": "钱包即身份",
+        "desc": "你连接的钱包就是收据的拥有者,无需注册账户。"
+      }
+    }
+  },
+  "Analyze": {
+    "title": "生成绿色报告",
+    "subtitle": "输入商品信息,AI 会从公开来源拉取证据并打分。",
+    "form": {
+      "productName": "商品名称",
+      "productNamePlaceholder": "例如:Nike Pegasus Trail 5 DV3865-602",
+      "brand": "品牌",
+      "brandPlaceholder": "例如:Nike",
+      "productUrl": "商品页面 URL",
+      "productUrlPlaceholder": "可选,例如:https://www.nike.com/...",
+      "submit": "生成报告",
+      "submitting": "分析中,请稍候..."
+    },
+    "errors": {
+      "productNameRequired": "商品名称必填"
+    },
+    "reset": "重新分析"
+  },
+  "Report": {
+    "score": "环境评分",
+    "grade": "等级",
+    "summary": "概要",
+    "findings": "发现",
+    "evidences": "证据",
+    "noEvidences": "暂无证据",
+    "positiveSignals": "正向信号",
+    "riskSignals": "风险信号",
+    "greenwashingRisk": "洗绿风险",
+    "alternatives": "替代选择",
+    "onChainProof": "链上证明",
+    "reportHash": "报告哈希",
+    "evidenceMerkleRoot": "证据 Merkle Root",
+    "reportURI": "报告 URI",
+    "metadataURI": "Metadata URI",
+    "evidenceTitle": "标题",
+    "evidenceSource": "来源",
+    "evidenceUrl": "链接",
+    "evidenceExcerpt": "摘录",
+    "evidenceClaim": "主张",
+    "evidenceConfidence": "置信度",
+    "evidenceHash": "哈希",
+    "confidence": {
+      "High": "高",
+      "Medium": "中",
+      "Low": "低",
+      "Unverified": "未验证"
+    }
+  },
+  "Mint": {
+    "cta": "铸造为 NFT",
+    "ctaConnectFirst": "先连接钱包再铸造",
+    "dialogTitle": "确认铸造",
+    "dialogDesc": "审核员钱包将为你铸造这条收据。铸造完成后,NFT 将归属于你当前连接的钱包。",
+    "to": "接收地址",
+    "submitting": "铸造中,正在等待链上确认...",
+    "success": "铸造成功",
+    "successDesc": "你的绿色收据已经在 Monad Testnet 上记账。",
+    "tokenId": "Token ID",
+    "transactionHash": "交易哈希",
+    "contract": "合约地址",
+    "retry": "重新铸造",
+    "error": "铸造失败"
+  },
+  "Receipt": {
+    "title": "收据 #{tokenId}",
+    "loading": "加载收据中...",
+    "notFound": "收据不存在",
+    "notFoundDesc": "这个 token ID 在链上找不到,可能还未铸造或链选错了。",
+    "creator": "创建者",
+    "auditor": "审核员",
+    "mintedAt": "铸造时间",
+    "fullReport": "完整报告",
+    "fetchReportFailed": "拉取报告失败"
+  },
+  "MyReceipts": {
+    "title": "我的收据",
+    "subtitle": "由这个钱包持有的全部 Eco Receipt。",
+    "empty": "暂无收据。先去分析一个商品试试?",
+    "connectFirst": "请先连接钱包查看你的收据。",
+    "scanning": "扫描事件中..."
+  },
+  "Errors": {
+    "walletNotConnected": "请先连接钱包",
+    "apiError": "请求失败:{message}",
+    "unknown": "出错了,请稍后再试"
+  }
+}
